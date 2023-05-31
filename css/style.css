@@ -1,0 +1,199 @@
+@import url('https://fonts.cdnfonts.com/css/uni-sans-regular');
+    
+body {
+        font-family: 'Uni Sans Demo', sans-serif;
+      margin: 0;
+      padding: 20;
+      background: rgb(231, 229, 229);
+    }
+
+    header {
+      width:100%;
+      position:fixed;
+      background-color: black;
+      color: #FFF;
+      padding:20px;
+      margin: -20px auto;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .download {
+       
+      margin: 20px;
+      text-align: center;
+    }
+    .download h2{
+      font-size: 50px;
+      
+    }
+    .download p{
+      font-size: 30px;
+      font-weight: 500;
+    }
+
+    .download img{
+        border-radius: 50%;
+        background-color: azure;
+        margin-top:80px;
+        margin-bottom:20px;
+    }
+
+    .download-button {
+      display: inline-block;
+      padding: 20px 30px;
+      background:linear-gradient(90deg,#6850ff,#a750ff);
+      color: #FFF;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 22px;
+    }
+    
+    .about {
+      background-color: black;
+      padding: 50px;
+      color: #fff;
+      text-align: center;
+      
+    }
+    
+    .about .why {
+      margin-top: 50px;
+      font-weight: 600;
+      font-size: 50px;
+    }
+    
+    .about .whyp {
+      margin-top: 30px;
+      font-size: 24px;
+    }
+    
+    .about .whys {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+    }
+    
+    .about .whys div {
+      margin: 0 20px;
+      text-align: center;
+    }
+    
+    .about .whys i {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    
+    .about .whys span {
+      font-size: 20px;
+    }
+    
+    footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: black;
+      color: #FFF;
+      text-align: center;
+      padding: 20px;
+    }
+    
+
+    footer {
+      
+      background-color: black;
+      color: #FFF;
+      text-align: center;
+      padding: 10px;
+      margin-top:200px;
+     
+    }
+    
+    .footer {
+      
+      bottom:0;
+      left:0;
+      width:100%;
+      text-align:center;
+      margin:0;
+      padding-top:-30px;
+      
+    }
+
+    #news{
+      font-size:20px;
+      margin-right:4px; 
+    }
+
+    #custom{
+      font-size:20px;
+      margin-right:5px;
+    }
+
+    #discoord{
+      font-size:20px;
+      margin-right:5px;
+    }
+    
+    #proibido{
+      font-size:20px;
+      margin-right:5px;
+    }
+
+    #comunidade{
+      
+      font-size:20px;
+      margin-right:5px;
+    }
+    
+    #comunidade:hover{
+      transform: scale(1.3);
+      transition: 0.3s;
+    }
+
+    .download-button {
+      display: inline-block;
+      padding: 20px 30px;
+      background: linear-gradient(90deg, #6850ff, #a750ff);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 22px;
+      transition: all 0.3s ease; 
+    }
+    
+    .download-button:hover {
+      font-weight: 600;
+      padding: 25px 40px;
+      background: linear-gradient(90deg, #a750ff, #6850ff); 
+      transform: scale(1.05); 
+    }
+
+    #proibido:hover{
+      transform: scale(1.3);
+      transition: 0.3s;
+    }
+    
+    #discoord:hover{
+      transform: scale(1.3);
+      transition: 0.3s;
+    }
+
+    #custom:hover{
+      transform: scale(1.3);
+      transition: 0.3s;
+    }
+
+    #news:hover{
+      transform: scale(1.3);
+      transition: 0.3s;
+    }
+
+    .header h1 a {
+      color: white;
+    }
